@@ -9,7 +9,7 @@
     
     <H1>FORMS</H1>
 
-    <form action="index.php" method="POST">
+    <form action="index.php" method="POST" enctype="multipart/form-data">
 
         <label for="username">username:</label>
         <input type="text" id="username" placeholder="ex:hollowfire" minlength="6" required>
@@ -49,12 +49,50 @@
         <input type="number" id="quantity" min="0" max="99" value="1"><br>
 
         <!---------------------------------------------->
-        
+        <!-- Radio Button -->
+
+        <label for="title">Title:</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" name="title" id="Mr." value="Mr.">
+        <label for="Ms.">Ms.</label>
+        <input type="radio" name="title" id="Ms." value="Ms.">
+        <label for="PhD.">PhD</label>
+        <input type="radio" name="title" id="PhD." value="PhD."><br>
+
+        <!---------------------------------------------->
+        <!--Drop Down Menu-->
+
+        <label for="payment">Payment</label>
+        <select id="payment">
+            
+            <option value="visa">visa</option>
+            <option value="mastercard">mastercard</option>
+            <option value="giftcard">giftcard</option>
+
+        </select><br>
+        <!--------------------------------------------------->
+        <!--Checkbox-->
+
+        <label for="subscribe">Subscribe</label>
+        <input type="checkbox" id="subscribe"><br>
+
+        <!-------------------------------------------------->
+        <!-- Comments -->
+
+        <label for="comment">Comments</label>
+        <textarea id="comment" cols="25" rows="3"></textarea><br>
+
+        <!------------------------------------------------------>
+        <!-- File Upload -->
+
+        <label for="file">Upload File: </label>
+        <input type="file" id="file" accept="image/png, image/jpeg"><br>
 
 
         <input type="reset"><br>
         <input type="submit">
-    </form>
+    </form> 
 
 </body>
 </html>
