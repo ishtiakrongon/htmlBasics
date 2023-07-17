@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Forms</title>
+</head>
+<body>
+    
+    <H1>FORMS</H1>
+
+    <form action="index.php" method="POST">
+
+        <label for="username">username:</label>
+        <input type="text" id="username" placeholder="ex:hollowfire" minlength="6" required>
+        <br>
+
+        <!---------------------------------------------------------------------------------------------->
+        <!-- Added Password -->
+
+        <label for="password">password:</label>
+        <input type="password" id="password" placeholder="minimum 8 characters" minlength="8" required>
+        <br>
+
+        <!--------------------------------------------------------------------------------------------------->
+        <!-- Added Email -->
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="yourmail@gmail.com" required>
+        <br>
+
+        <!---------------------------------------------------------------------------------------------------->
+        <!--Added Phone number -->
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" placeholder="+88018XXXXXXXX" required>
+        <br>
+
+        <!---------------------------------------------->
+        <!-- Birthdate -->
+
+        <label for="bday">Birthdate</label>
+        <input type="date" id="bday">
+        <br>
+
+        <!----------------------------------------------->
+
+        <label for="quantity">quantity:</label>
+        <input type="number" id="quantity" min="0" max="99" value="1"><br>
+
+        <!---------------------------------------------->
+        
+
+
+        <input type="reset"><br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
