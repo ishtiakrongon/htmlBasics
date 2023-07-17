@@ -1,8 +1,8 @@
 body{
-    background-color: black;
+    background-color: rgb(43, 52, 103);
 }
 h1{
-    color: whitesmoke;
+    color: rgb(186, 215, 233);
 }
 
 /* #p1{
@@ -22,9 +22,9 @@ h1{
 } */
 
 .odd {
-    color:aquamarine;
+    color:#EB455F;
 }
 
 .even {
-    color: coral;
+    color: #FCFFE7;
 }
