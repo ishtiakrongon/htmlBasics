@@ -1,0 +1,25 @@
+h1 {
+    font-family: "Open Sans";
+    color: rgb(255, 76, 41);
+    border-style: outset;
+    border-width: 2px;
+    border-color: #712B75;
+    border-radius: 5px;
+}
+
+p{
+    font-family: "Open Sans";
+    font-size: 400;
+    font-weight: normal;
+    font-style: normal;
+    color: #C74B50;
+    border-bottom: 3px solid rgb(117, 189, 202);
+    border-top: 3px solid rgb(241, 188, 83);
+    border-left: 3px dotted rgb(132, 217, 173);
+    border-right: 3px double rgb(23, 93, 222);
+
+}
+
+body {
+    background-color: #46244C;
+}
