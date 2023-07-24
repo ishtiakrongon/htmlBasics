@@ -1,0 +1,42 @@
+.first_name, .last_name {
+    width: 100px;
+    height: 26px;
+    display: inline-block;
+    border: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    border-color: gainsboro;
+}
+
+.user_email {
+    display: block;
+    width: 210px;
+    height: 26px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: gainsboro;
+    margin-bottom: 09px;
+}
+
+.signup {
+    width: 215px;
+    height: 35px;
+    background-color: rgba(8, 97, 213, 0.9);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: medium;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: background-color 0.3s, opacity 0.2s;
+}
+
+.signup:hover {
+    background-color: rgb(209, 28, 118);
+}
+
+.signup:active {
+    opacity: 0.4;
+}
